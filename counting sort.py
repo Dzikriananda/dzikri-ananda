@@ -1,6 +1,6 @@
 import ctypes #sengaja pake ctype,soalnya kalo pake list ribet 
 
-UINT_ARRAY_30 = ctypes.c_uint*30
+UINT_ARRAY_30 = ctypes.c_uint*30 # pakay tipe data c
 arr = UINT_ARRAY_30()
 arr = [1,1,2,5,2,5,2,2,2,1,1,7,5,6,9,9]
 arr2= UINT_ARRAY_30()
