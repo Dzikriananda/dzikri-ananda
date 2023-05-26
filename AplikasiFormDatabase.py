@@ -3,6 +3,7 @@ from tkinter import ttk
 import sqlite3
 from tkinter import messagebox as tkmbox
 
+#aplikasi ini adalah aplikasi dasar sqlite menggunakan gui tkinter
 window=tk.Tk()
 
 frame_input=ttk.Frame(window)
