@@ -3,7 +3,7 @@ from tkinter import ttk
 import sqlite3
 from tkinter import messagebox as tkmbox
 
-window=tk.Tk()
+window=tk.Tk() #ini adalah syntax pertama tkinter
 
 frame_input=ttk.Frame(window)
 frame_input.pack(padx=10,pady=10)
